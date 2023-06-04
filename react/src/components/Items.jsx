@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from "./Card";
+import MediaCard from "./Card";
 import axiosClient from "../axiosClient";
 import Grid from "@mui/material/Grid";
 
@@ -23,7 +23,7 @@ export default function Items() {
             >
                 {items.map((item) => (
                     <Grid item key={item.id} xs={12} md={4}>
-                        <Card
+                        <MediaCard
                             name={item.name}
                             description={item.description}
                             image="https://picsum.photos/200/300"

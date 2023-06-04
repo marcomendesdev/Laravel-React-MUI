@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from "./Card";
+import MediaCard from "./Card";
 import axiosClient from "../axiosClient";
 import Grid from "@mui/material/Grid";
 import { useNavigate } from "react-router-dom";
@@ -27,7 +27,7 @@ export default function Items() {
                     {items &&
                         items.map((item) => (
                             <Grid item key={item.id} xs={12} md={4}>
-                                <Card
+                                <MediaCard
                                     id={item.id}
                                     name={item.name}
                                     description={item.description}
