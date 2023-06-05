@@ -1,99 +1,54 @@
 import React from "react";
-import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
 import axiosClient from "../axiosClient";
-import { Link, useNavigate } from "react-router-dom";
-import { useStateContext } from "../contexts/Context";
+import ReusableForm from "./ReusableForm";
 
-const MyTextInput = ({ label, ...props }) => {
-    const [field, meta] = useField(props);
+export default function LoginForm() {
+    const initialValues = {
+        email: "",
+        password: "",
+    };
+
+    const validationSchema = Yup.object({
+        email: Yup.string().email("Invalid email address").required("Required"),
+        password: Yup.string()
+            .min(8, "Must be 8 characters or more")
+            .required("Required"),
+    });
+
+    const onSubmit = async (values) => {
+        const { user, token } = await axiosClient.post("/login", values);
+        console.log("Resp.Data", user);
+        console.log("Response", token);
+        return { user, token };
+    };
+
+    const fields = [
+        {
+            type: "email",
+            label: "Email Address",
+            name: "email",
+            placeholder: "jane@formik.com",
+        },
+        {
+            type: "password",
+            label: "Password",
+            name: "password",
+            placeholder: "********",
+        },
+    ];
+
     return (
-        <>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <input className="text-input" {...field} {...props} />
-            {meta.touched && meta.error ? (
-                <div className="error">{meta.error}</div>
-            ) : null}
-        </>
+        <ReusableForm
+            initialValues={initialValues}
+            validationSchema={validationSchema}
+            onSubmit={onSubmit}
+            submitButtonText="Submit"
+            additionalText="Not registered yet?"
+            additionalLink="/signup"
+            fields={fields}
+            formName="Log in"
+            linkName="Sign up"
+        />
     );
-};
-
-const Password = ({ label, ...props }) => {
-    const [field, meta] = useField(props);
-    return (
-        <>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <input className="password-input" {...field} {...props} />
-            {meta.touched && meta.error ? (
-                <div className="error">{meta.error}</div>
-            ) : null}
-        </>
-    );
-};
-
-const LoginForm = () => {
-    const { setToken, setUser } = useStateContext();
-    const navigate = useNavigate();
-
-    return (
-        <>
-            <h1>Log in</h1>
-            <Formik
-                initialValues={{
-                    email: "",
-                    password: "",
-                }}
-                validationSchema={Yup.object({
-                    email: Yup.string()
-                        .email("Invalid email addresss`")
-                        .required("Required"),
-                    password: Yup.string()
-                        .min(8, "Must be 8 characters or more")
-                        .required("Required"),
-                })}
-                onSubmit={async (values, { setSubmitting }) => {
-                    try {
-                        const { user, token } = await axiosClient.post(
-                            "login",
-                            values
-                        );
-                        setToken(token);
-                        setUser(user);
-                        navigate("/dashboard/items");
-                        console.log("User", user);
-                        console.log("Token", token);
-                    } catch (error) {
-                        console.error(error);
-                    } finally {
-                        setSubmitting(false);
-                    }
-                }}
-            >
-                <Form>
-                    <MyTextInput
-                        label="Email Address"
-                        name="email"
-                        type="email"
-                        placeholder="jane@formik.com"
-                    />
-                    <Password
-                        label="Password"
-                        name="password"
-                        type="password"
-                        placeholder="********"
-                    />
-
-                    <br />
-                    <button type="submit">Submit</button>
-                    <br />
-                    <p>
-                        Not registered yet? &nbsp;
-                        <Link to="/signup">Sign up</Link>
-                    </p>
-                </Form>
-            </Formik>
-        </>
-    );
-};
-
-export default LoginForm;
+}

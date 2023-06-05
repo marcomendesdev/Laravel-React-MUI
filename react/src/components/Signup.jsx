@@ -1,120 +1,74 @@
 import React from "react";
-import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
 import axiosClient from "../axiosClient";
-import { Link, useNavigate } from "react-router-dom";
-import { useStateContext } from "../contexts/Context";
+import ReusableForm from "./ReusableForm";
 
-const MyTextInput = ({ label, ...props }) => {
-    const [field, meta] = useField(props);
+export default function SignupForm() {
+    const initialValues = {
+        name: "",
+        email: "",
+        password: "",
+        password_confirmation: "",
+    };
+
+    const validationSchema = Yup.object({
+        name: Yup.string()
+            .max(15, "Must be 15 characters or less")
+            .required("Required"),
+        email: Yup.string().email("Invalid email address").required("Required"),
+        password: Yup.string()
+            .min(8, "Must be 8 characters or more")
+            .required("Required"),
+        password_confirmation: Yup.string()
+            .oneOf([Yup.ref("password"), null], "Passwords must match")
+            .required("Required"),
+    });
+
+    const onSubmit = async (values) => {
+        const { user, token } = await axiosClient.post("/signup", values);
+        console.log("Resp.Data", user);
+        console.log("Response", token);
+        return { user, token };
+    };
+
+    const fields = [
+        {
+            type: "text",
+            label: "Name",
+            name: "name",
+            placeholder: "Jane",
+        },
+        {
+            type: "email",
+            label: "Email Address",
+            name: "email",
+            placeholder: "jane@formik.com",
+        },
+        {
+            type: "password",
+            label: "Password",
+            name: "password",
+            placeholder: "********",
+        },
+        {
+            type: "password",
+            label: "Confirm Password",
+            name: "password_confirmation",
+            placeholder: "********",
+        },
+    ];
+
     return (
-        <>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <input className="text-input" {...field} {...props} />
-            {meta.touched && meta.error ? (
-                <div className="error">{meta.error}</div>
-            ) : null}
-        </>
+        <ReusableForm
+            initialValues={initialValues}
+            validationSchema={validationSchema}
+            onSubmit={onSubmit}
+            submitButtonText="Submit"
+            additionalText="Already registered?"
+            additionalLink="/login"
+            fields={fields}
+            formName="Sign up"
+            linkName="Log in"
+        />
     );
-};
-
-const Password = ({ label, ...props }) => {
-    const [field, meta] = useField(props);
-    return (
-        <>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <input className="password-input" {...field} {...props} />
-            {meta.touched && meta.error ? (
-                <div className="error">{meta.error}</div>
-            ) : null}
-        </>
-    );
-};
-
-const SignupForm = () => {
-    const { setUser, setToken } = useStateContext();
-    const navigate = useNavigate();
-    return (
-        <>
-            <h1>Sign up</h1>
-            <Formik
-                initialValues={{
-                    name: "",
-                    email: "",
-                    password: "",
-                    password_confirmation: "",
-                }}
-                validationSchema={Yup.object({
-                    name: Yup.string()
-                        .max(15, "Must be 15 characters or less")
-                        .required("Required"),
-                    email: Yup.string()
-                        .email("Invalid email addresss`")
-                        .required("Required"),
-                    password: Yup.string()
-                        .min(8, "Must be 8 characters or more")
-                        .required("Required"),
-                    password_confirmation: Yup.string()
-                        .oneOf(
-                            [Yup.ref("password"), null],
-                            "Passwords must match"
-                        )
-                        .required("Required"),
-                })}
-                onSubmit={async (values, { setSubmitting }) => {
-                    try {
-                        const { user, token } = await axiosClient.post(
-                            "/signup",
-                            values
-                        );
-                        console.log("Resp.Data", user);
-                        console.log("Response", token);
-                        setUser(user);
-                        setToken(token);
-                        navigate("/dashboard/items");
-                    } catch (error) {
-                        console.error(error);
-                    } finally {
-                        setSubmitting(false);
-                    }
-                }}
-            >
-                <Form>
-                    <MyTextInput
-                        label="Name"
-                        name="name"
-                        type="text"
-                        placeholder="Jane"
-                    />
-                    <MyTextInput
-                        label="Email Address"
-                        name="email"
-                        type="email"
-                        placeholder="jane@formik.com"
-                    />
-                    <Password
-                        label="Password"
-                        name="password"
-                        type="password"
-                        placeholder="********"
-                    />
-                    <Password
-                        label="Confirm Password"
-                        name="password_confirmation"
-                        type="password"
-                        placeholder="********"
-                    />
-                    <br />
-                    <button type="submit">Submit</button>
-                    <br />
-                    <p>
-                        Already registered? &nbsp;
-                        <Link to="/login">Log in</Link>
-                    </p>
-                </Form>
-            </Formik>
-        </>
-    );
-};
-
-export default SignupForm;
+}
