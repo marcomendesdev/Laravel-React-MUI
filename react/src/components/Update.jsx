@@ -74,13 +74,13 @@ export default function Update({ id }) {
                         width: 600,
                     }}
                 >
-                    <h1>Edit Item</h1>
+                    
                     <ReusableForm
                         initialValues={initialValues}
                         validationSchema={validationSchema}
                         onSubmit={onSubmit}
                         submitButtonText="Submit"
-                        formName="Add Item"
+                        formName="Edit Item"
                         fields={fields}
                     />
                 </Box>

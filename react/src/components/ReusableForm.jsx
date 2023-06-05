@@ -92,7 +92,20 @@ export default function ReusableForm({
                         return null; // Ignore unsupported field types
                     })}
                     <br />
-                    <button type="submit">{submitButtonText}</button>
+                    {additionalText ? (
+                        <button type="submit">{submitButtonText}</button>
+                    ) : (
+                        <button
+                            type="submit"
+                            style={{
+                                backgroundColor: "#1976d2",
+                                color: "#fff",
+                            }}
+                        >
+                            {submitButtonText}
+                        </button>
+                    )}
+
                     <br />
                     {additionalText && (
                         <p>
