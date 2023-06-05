@@ -23,7 +23,7 @@ const AddItem = () => {
 
     return (
         <>
-            <h1>Log in</h1>
+            <h1>Add Item</h1>
             <Formik
                 initialValues={{
                     name: "",
@@ -39,7 +39,7 @@ const AddItem = () => {
                             `/add-new-item/${user.id}`,
                             values
                         );
-                        navigate("/dashboard/items");
+                        navigate("/dashboard/my-items");
                         console.log("Response", response);
                     } catch (error) {
                         console.error(error);
