@@ -3,27 +3,59 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import axiosClient from "../axiosClient";
+import * as Yup from "yup";
 import { useNavigate } from "react-router-dom";
-import { Formik, Form, useField } from "formik";
+import ReusableForm from "./ReusableForm";
 
-const MyTextInput = ({ label, ...props }) => {
-    const [field, meta] = useField(props);
-    return (
-        <>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <input className="text-input" {...field} {...props} />
-            {meta.touched && meta.error ? (
-                <div className="error">{meta.error}</div>
-            ) : null}
-        </>
-    );
-};
-
-const Update = ({ id }) => {
+export default function Update({ id }) {
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+
+    const initialValues = {
+        name: "",
+        description: "",
+        price: "",
+        image: "",
+    };
+
+    const validationSchema = Yup.object({});
+
+    const onSubmit = async (values) => {
+        console.log("Values", values);
+        const response = await axiosClient.put(`/update-item/${id}`, values);
+        console.log("Response", response);
+        setOpen(false);
+        navigate("/dashboard/items");
+    };
+
+    const fields = [
+        {
+            type: "text",
+            label: "Name",
+            name: "name",
+            placeholder: "Name",
+        },
+        {
+            type: "text",
+            label: "Description",
+            name: "description",
+            placeholder: "Description",
+        },
+        {
+            type: "text",
+            label: "Price",
+            name: "price",
+            placeholder: "Price",
+        },
+        {
+            type: "text",
+            label: "Image",
+            name: "image",
+            placeholder: "Image URL",
+        },
+    ];
 
     return (
         <>
@@ -43,73 +75,16 @@ const Update = ({ id }) => {
                     }}
                 >
                     <h1>Edit Item</h1>
-                    <Formik
-                        initialValues={{
-                            name: "",
-                            description: "",
-                            price: "",
-                            image: "",
-                        }}
-                        onSubmit={async (values, { setSubmitting }) => {
-                            try {
-                                const response = await axiosClient
-                                    .put(`/update-item/${id}`, values)
-                                    .then(() => navigate("/dashboard/items"));
-                                console.log("Response", response);
-                            } catch (error) {
-                                console.error(error);
-                            } finally {
-                                setSubmitting(false);
-                            }
-                        }}
-                    >
-                        <Form>
-                            <MyTextInput
-                                label="Name"
-                                name="name"
-                                type="text"
-                                placeholder="Name"
-                            />
-
-                            <MyTextInput
-                                label="Description"
-                                name="description"
-                                type="text"
-                                placeholder="Description"
-                            />
-
-                            <MyTextInput
-                                label="Price"
-                                name="price"
-                                type="text"
-                                placeholder="Price"
-                            />
-
-                            <MyTextInput
-                                label="Image"
-                                name="image"
-                                type="text"
-                                placeholder="Image URL"
-                            />
-
-                            <br />
-                            <button
-                                type="submit"
-                                style={{
-                                    backgroundColor: "#1976d2",
-                                    color: "#fff",
-                                }}
-                            >
-                                Submit
-                            </button>
-                        </Form>
-                    </Formik>
+                    <ReusableForm
+                        initialValues={initialValues}
+                        validationSchema={validationSchema}
+                        onSubmit={onSubmit}
+                        submitButtonText="Submit"
+                        formName="Add Item"
+                        fields={fields}
+                    />
                 </Box>
             </Modal>
         </>
     );
-};
-
-export default Update;
-
-
+}
