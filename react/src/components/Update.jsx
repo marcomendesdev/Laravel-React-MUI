@@ -11,6 +11,7 @@ export default function Update({id}) {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
+
     const [formData, setFormData] = useState({
         name: "",
         description: "",

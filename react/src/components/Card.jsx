@@ -29,7 +29,7 @@ export default function MediaCard({
             {showActions && (
                 <div>
                     <CardActions> 
-                        <Update id={id} /> {/* Pass the id prop */}
+                        <Update id={id} />
                         <Button size="small" onClick={deleteItem}>
                             Delete
                         </Button>

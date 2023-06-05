@@ -1,130 +1,91 @@
-import { useState } from "react";
+import React from "react";
+import { Formik, Form, useField } from "formik";
 import axiosClient from "../axiosClient";
-import { useStateContext } from "../contexts/Context";
 import { useNavigate } from "react-router-dom";
+import { useStateContext } from "../contexts/Context";
 
-export default function AddItem() {
+const MyTextInput = ({ label, ...props }) => {
+    const [field, meta] = useField(props);
+    return (
+        <>
+            <label htmlFor={props.id || props.name}>{label}</label>
+            <input className="text-input" {...field} {...props} />
+            {meta.touched && meta.error ? (
+                <div className="error">{meta.error}</div>
+            ) : null}
+        </>
+    );
+};
+
+const AddItem = () => {
     const { user } = useStateContext();
-
     const navigate = useNavigate();
 
-    const style = {
-        position: "absolute",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        width: 400,
-        backgroundColor: "#ffffff",
-        borderRadius: "8px",
-        boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)",
-        padding: "24px",
-    };
-
-    const formFieldStyle = {
-        marginBottom: "1rem",
-    };
-
-    const inputStyle = {
-        width: "100%",
-        padding: "12px",
-        border: "none",
-        borderRadius: "4px",
-        boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)",
-    };
-
-    const buttonStyle = {
-        display: "block",
-        width: "100%",
-        padding: "12px",
-        borderRadius: "4px",
-        border: "none",
-        background: "#4caf50",
-        color: "#ffffff",
-        fontSize: "16px",
-        fontWeight: "bold",
-        cursor: "pointer",
-        boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)",
-    };
-
-    const [formData, setFormData] = useState({
-        name: "",
-        description: "",
-        price: "",
-        image: "",
-        user_id: user.id,
-    });
-
-    const handleInputChange = (event) => {
-        const { name, value } = event.target;
-        setFormData((prevData) => ({ ...prevData, [name]: value }));
-    };
-
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        try {
-            const response = await axiosClient.post(
-                `/add-new-item/${user.id}`,
-                formData
-            );
-            console.log("Data", formData);
-            console.log("Response", response);
-            console.log("User", user);
-            navigate("/dashboard/items");
-        } catch (error) {
-            console.log("Error", error);
-        }
-    };
-
     return (
-        <div>
-            <h1>AddItem</h1>
-            <div style={style}>
-                <form onSubmit={handleSubmit}>
-                    <label htmlFor="name">Name:</label>
-                    <input
-                        type="text"
-                        id="name"
+        <>
+            <h1>Log in</h1>
+            <Formik
+                initialValues={{
+                    name: "",
+                    description: "",
+                    price: "",
+                    image: "",
+                    user_id: user.id,
+                }}
+               
+                onSubmit={async (values, { setSubmitting }) => {
+                    try {
+                        const response = await axiosClient.post(
+                            `/add-new-item/${user.id}`,
+                            values
+                        );
+                        navigate("/dashboard/items");
+                        console.log("Response", response);
+                    } catch (error) {
+                        console.error(error);
+                    } finally {
+                        setSubmitting(false);
+                    }
+                }}
+            >
+                <Form>
+
+                    <MyTextInput
+                        label="Name"
                         name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        style={{ ...formFieldStyle, ...inputStyle }}
-                        required
-                    />
-                    <label htmlFor="description">Description:</label>
-                    <input
                         type="text"
-                        id="description"
+                        placeholder="Name"
+                    />
+
+                    <MyTextInput
+                        label="Description"
                         name="description"
-                        value={formData.description}
-                        onChange={handleInputChange}
-                        style={{ ...formFieldStyle, ...inputStyle }}
-                        required
-                    />
-                    <label htmlFor="price">Price:</label>
-                    <input
                         type="text"
-                        id="price"
+                        placeholder="Description"
+                    />
+
+                    <MyTextInput
+                        label="Price"
                         name="price"
-                        value={formData.price}
-                        onChange={handleInputChange}
-                        style={{ ...formFieldStyle, ...inputStyle }}
-                        required
-                    />
-                    <label htmlFor="image">Image URL:</label>
-                    <input
                         type="text"
-                        id="image"
-                        name="image"
-                        value={formData.image}
-                        onChange={handleInputChange}
-                        style={{ ...formFieldStyle, ...inputStyle }}
-                        required
+                        placeholder="Price"
                     />
-                    <button type="submit" style={buttonStyle}>
-                        Submit
-                    </button>
-                </form>
-            </div>
-        </div>
+
+                    <MyTextInput
+                        label="Image"
+                        name="image"
+                        type="text"
+                        placeholder="Image URL"
+                    />
+                   
+                    <br />
+                    <button type="submit" style={{backgroundColor: '#1976d2', color: '#fff'}}>Submit</button>
+                </Form>
+            </Formik>
+        </>
     );
-}
+};
+
+export default AddItem;
+
+

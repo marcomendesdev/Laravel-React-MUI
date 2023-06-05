@@ -1,8 +1,6 @@
 import React from "react";
 import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
-import "../styles.css";
-import "../styles-custom.css";
 import axiosClient from "../axiosClient";
 import { Link, useNavigate } from "react-router-dom";
 import { useStateContext } from "../contexts/Context";
