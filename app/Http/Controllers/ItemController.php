@@ -15,9 +15,9 @@ class ItemController extends Controller
      */
     public function index()
     {
-        $items = Item::all();
+        $items = Item::paginate(5);
         return response([
-            'items' => $items
+            'data' => $items
         ]);
     }
 
@@ -40,7 +40,7 @@ class ItemController extends Controller
         if (Auth::check()) {
             $user = Auth::user();
             $items = Item::where('user_id', $user->id)->get();
-    
+
             return response([
                 'items' => $items
             ]);

@@ -2,20 +2,37 @@ import React, { useEffect, useState } from "react";
 import MediaCard from "./Card";
 import axiosClient from "../axiosClient";
 import Grid from "@mui/material/Grid";
+import Pagination from "@mui/material/Pagination";
 
 export default function Items() {
     const [items, setItems] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
 
     useEffect(() => {
-        axiosClient.get("/items").then(({ items }) => {
-            console.log(items);
-            setItems(items);
+        fetchItems(currentPage);
+    }, [currentPage]);
+
+    const fetchItems = (page) => {
+        axiosClient.get(`/items?page=${page}`).then(({ data }) => {
+            const { data: itemsData, last_page: totalPages } = data; // Access data property from response
+            setItems(itemsData);
+            setTotalPages(totalPages);
         });
-    }, []);
+    };
+
+    const handlePageChange = (event, page) => {
+        setCurrentPage(page);
+    };
 
     return (
         <div>
             <h1>Items</h1>
+            <Pagination
+                count={totalPages}
+                page={currentPage}
+                onChange={handlePageChange}
+            />
             <Grid
                 container
                 rowSpacing={4}
@@ -32,6 +49,11 @@ export default function Items() {
                     </Grid>
                 ))}
             </Grid>
+            <Pagination
+                count={totalPages}
+                page={currentPage}
+                onChange={handlePageChange}
+            />
         </div>
     );
 }
