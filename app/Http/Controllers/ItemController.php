@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Item;
 use App\Http\Requests\StoreItemRequest;
 use App\Http\Requests\UpdateItemRequest;
-use App\Http\Resources\ItemResource;
 use Illuminate\Support\Facades\Auth;
 
 class ItemController extends Controller

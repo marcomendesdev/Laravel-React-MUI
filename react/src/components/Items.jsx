@@ -43,7 +43,7 @@ export default function Items() {
                         <MediaCard
                             name={item.name}
                             description={item.description}
-                            image="https://picsum.photos/200/300"
+                            image={item.image}
                             showActions={false}
                         />
                     </Grid>
