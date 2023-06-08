@@ -31,7 +31,7 @@ export default function Items() {
                                     id={item.id}
                                     name={item.name}
                                     description={item.description}
-                                    image="https://picsum.photos/200/300"
+                                    image={item.image}
                                     showActions={true}
                                     deleteItem={async (id) => {
                                         const response =
