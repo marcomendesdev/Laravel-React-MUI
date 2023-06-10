@@ -88,6 +88,16 @@ export default function ReusableForm({
                                     type={type}
                                 />
                             );
+                        } else if (type === "file") {
+                            return (
+                                <MyTextInput
+                                    key={index}
+                                    label={label}
+                                    {...props}
+                                    name={name}
+                                    type={type}
+                                />
+                            );
                         }
                         return null; // Ignore unsupported field types
                     })}

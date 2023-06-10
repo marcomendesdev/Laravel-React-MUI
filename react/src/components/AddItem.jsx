@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as Yup from "yup";
 import axiosClient from "../axiosClient";
 import ReusableForm from "./ReusableForm";
@@ -9,20 +9,32 @@ export default function AddItem() {
     const { user } = useStateContext();
     const { id } = user;
     const navigate = useNavigate();
+    const [image, setImage] = useState(null);
 
     const initialValues = {
         name: "",
         description: "",
         price: "",
-        image: "",
-        user_id: id,
-    };
+    };      
 
     const validationSchema = Yup.object({});
 
     const onSubmit = async (values) => {
-        console.log("Values", values);
-        const response = await axiosClient.post(`/add-new-item/${id}`, values);
+        const formData = new FormData();
+        formData.append("name", values.name);
+        formData.append("description", values.description);
+        formData.append("price", values.price);
+        formData.append("image", image);
+        formData.append("user_id", id);
+
+        console.log("Form Data", formData);
+
+        const response = await axiosClient.post(`/add-new-item/${id}`, formData, {
+            headers: {
+                "Content-Type": "multipart/form-data",
+            },
+        });
+
         console.log("Response", response);
         navigate("/dashboard/items");
     };
@@ -47,10 +59,10 @@ export default function AddItem() {
             placeholder: "Price",
         },
         {
-            type: "text",
+            type: "file",
             label: "Image",
             name: "image",
-            placeholder: "Image URL",
+            onChange: (event) => setImage(event.target.files[0]),
         },
     ];
 

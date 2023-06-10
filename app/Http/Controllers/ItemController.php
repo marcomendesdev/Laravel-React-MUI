@@ -25,11 +25,34 @@ class ItemController extends Controller
      */
     public function store(StoreItemRequest $request)
     {
-        $item = Item::create($request->validated());
+        $itemData = $request->validated();
+
+        // Check if image file is present in the request
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+
+            // Generate a unique filename for the image
+            $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
+
+            // Store the image file in storage/app/public/images directory
+            $image->storeAs('public/images', $imageName);
+
+            // Update the image path in the $itemData array
+            $itemData['image'] = 'images/' . $imageName;
+
+            // make the image to render in the frontend
+            $itemData['image'] = asset('storage/' . $itemData['image']);
+        }
+
+        // Create the item
+        $item = Item::create($itemData);
+
         return response([
             'item' => $item
         ], 201);
     }
+
+
 
     /**
      * Display the specified resource.
