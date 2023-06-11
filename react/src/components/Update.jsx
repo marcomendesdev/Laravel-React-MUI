@@ -12,20 +12,27 @@ export default function Update({ id }) {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const [file, setFile] = useState(null);
 
     const initialValues = {
         name: "",
         description: "",
         price: "",
-        image: "",
     };
 
     const validationSchema = Yup.object({});
 
     const onSubmit = async (values) => {
-        console.log("Values", values);
-        const response = await axiosClient.put(`/update-item/${id}`, values);
-        console.log("Response", response);
+        const formData = new FormData();
+        formData.append("name", values.name);
+        formData.append("description", values.description);
+        formData.append("price", values.price);
+        formData.append("image", file);
+        await axiosClient.post(`/update-item/${id}`, formData, {
+            headers: {
+                "Content-Type": "multipart/form-data",
+            },
+        });
         setOpen(false);
         navigate("/dashboard/items");
     };
@@ -50,10 +57,10 @@ export default function Update({ id }) {
             placeholder: "Price",
         },
         {
-            type: "text",
+            type: "file",
             label: "Image",
             name: "image",
-            placeholder: "Image URL",
+            onChange: (e) => setFile(e.target.files[0]),
         },
     ];
 

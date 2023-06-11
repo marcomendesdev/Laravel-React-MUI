@@ -6,6 +6,7 @@ use App\Models\Item;
 use App\Http\Requests\StoreItemRequest;
 use App\Http\Requests\UpdateItemRequest;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class ItemController extends Controller
 {
@@ -74,12 +75,27 @@ class ItemController extends Controller
      */
     public function update(UpdateItemRequest $request, Item $item)
     {
-        // update item
-        $item->update($request->validated());
+        $itemData = $request->validated();
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+
+            $imageName = uniqid() . '.' . $image->getClientOriginalExtension();
+
+            $image->storeAs('public/images', $imageName);
+
+            $itemData['image'] = 'images/' . $imageName;
+
+            $itemData['image'] = asset('storage/' . $itemData['image']);
+
+            Storage::delete('public/' . $item->image);
+        }
+        $item->update($itemData);
+
         return response([
             'item' => $item
         ], 200);
     }
+
 
     /**
      * Remove the specified resource from storage.

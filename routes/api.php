@@ -29,7 +29,7 @@ Route::middleware('auth:sanctum')->group(function () {
         return $userCollection;
     });
     Route::post('/add-new-item/{id}', [ItemController::class, 'store']);
-    Route::put('/update-item/{item}', [ItemController::class, 'update']);
+    Route::post('/update-item/{item}', [ItemController::class, 'update']);
     Route::delete('/delete-item/{item}', [ItemController::class, 'destroy']);
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/user-all-items', [ItemController::class, 'show']);

@@ -317,3 +317,1232 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2023-06-10 22:12:58] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-10 22:22:53] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-10 22:32:53] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-10 22:42:55] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-10 22:52:53] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-10 23:02:53] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 06:06:12] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 06:43:29] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 06:53:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 06:58:42] local.ERROR: Database file at path [C:\Users\marco\Desktop\laraz\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: PRAGMA foreign_keys = ON;) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): Database file at path [C:\\Users\\marco\\Desktop\\laraz\\database\\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: PRAGMA foreign_keys = ON;) at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('PRAGMA foreign_...', Array, Object(Closure))
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(569): Illuminate\\Database\\Connection->run('PRAGMA foreign_...', Array, Object(Closure))
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(397): Illuminate\\Database\\Connection->statement('PRAGMA foreign_...')
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\SQLiteConnection.php(35): Illuminate\\Database\\Schema\\Builder->enableForeignKeyConstraints()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(272): Illuminate\\Database\\SQLiteConnection->__construct(Object(Closure), 'C:\\\\Users\\\\marco\\\\...', '', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(75): Illuminate\\Database\\Connectors\\ConnectionFactory->createConnection('sqlite', Object(Closure), 'C:\\\\Users\\\\marco\\\\...', '', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(50): Illuminate\\Database\\Connectors\\ConnectionFactory->createSingleConnection(Array)
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(152): Illuminate\\Database\\Connectors\\ConnectionFactory->make(Array, 'sqlite')
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(101): Illuminate\\Database\\DatabaseManager->makeConnection('sqlite')
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1820): Illuminate\\Database\\DatabaseManager->connection('sqlite')
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1786): Illuminate\\Database\\Eloquent\\Model::resolveConnection(NULL)
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1578): Illuminate\\Database\\Eloquent\\Model->getConnection()
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1497): Illuminate\\Database\\Eloquent\\Model->newBaseQueryBuilder()
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1533): Illuminate\\Database\\Eloquent\\Model->newModelQuery()
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1486): Illuminate\\Database\\Eloquent\\Model->newQueryWithoutScopes()
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2335): Illuminate\\Database\\Eloquent\\Model->newQuery()
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2347): Illuminate\\Database\\Eloquent\\Model->__call('find', Array)
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\sanctum\\src\\PersonalAccessToken.php(66): Illuminate\\Database\\Eloquent\\Model::__callStatic('find', Array)
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\sanctum\\src\\Guard.php(67): Laravel\\Sanctum\\PersonalAccessToken::findToken('K6oQ1JO4a86MxTX...')
+#19 [internal function]: Laravel\\Sanctum\\Guard->__invoke(Object(Illuminate\\Http\\Request), NULL)
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\RequestGuard.php(57): call_user_func(Object(Laravel\\Sanctum\\Guard), Object(Illuminate\\Http\\Request), NULL)
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\GuardHelpers.php(60): Illuminate\\Auth\\RequestGuard->user()
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(76): Illuminate\\Auth\\RequestGuard->check()
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(55): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#48 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#51 {main}
+
+[previous exception] [object] (Illuminate\\Database\\SQLiteDatabaseDoesNotExistException(code: 0): Database file at path [C:\\Users\\marco\\Desktop\\laraz\\database\\database.sqlite] does not exist. Ensure this is an absolute path to the database. at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\SQLiteConnector.php:34)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(221): Illuminate\\Database\\Connectors\\SQLiteConnector->connect(Array)
+#1 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1275): call_user_func(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(574): Illuminate\\Database\\Connection->getPdo()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('PRAGMA foreign_...', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('PRAGMA foreign_...', Array, Object(Closure))
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(569): Illuminate\\Database\\Connection->run('PRAGMA foreign_...', Array, Object(Closure))
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(397): Illuminate\\Database\\Connection->statement('PRAGMA foreign_...')
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\SQLiteConnection.php(35): Illuminate\\Database\\Schema\\Builder->enableForeignKeyConstraints()
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(272): Illuminate\\Database\\SQLiteConnection->__construct(Object(Closure), 'C:\\\\Users\\\\marco\\\\...', '', Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(75): Illuminate\\Database\\Connectors\\ConnectionFactory->createConnection('sqlite', Object(Closure), 'C:\\\\Users\\\\marco\\\\...', '', Array)
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(50): Illuminate\\Database\\Connectors\\ConnectionFactory->createSingleConnection(Array)
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(152): Illuminate\\Database\\Connectors\\ConnectionFactory->make(Array, 'sqlite')
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(101): Illuminate\\Database\\DatabaseManager->makeConnection('sqlite')
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1820): Illuminate\\Database\\DatabaseManager->connection('sqlite')
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1786): Illuminate\\Database\\Eloquent\\Model::resolveConnection(NULL)
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1578): Illuminate\\Database\\Eloquent\\Model->getConnection()
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1497): Illuminate\\Database\\Eloquent\\Model->newBaseQueryBuilder()
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1533): Illuminate\\Database\\Eloquent\\Model->newModelQuery()
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1486): Illuminate\\Database\\Eloquent\\Model->newQueryWithoutScopes()
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2335): Illuminate\\Database\\Eloquent\\Model->newQuery()
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(2347): Illuminate\\Database\\Eloquent\\Model->__call('find', Array)
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\sanctum\\src\\PersonalAccessToken.php(66): Illuminate\\Database\\Eloquent\\Model::__callStatic('find', Array)
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\sanctum\\src\\Guard.php(67): Laravel\\Sanctum\\PersonalAccessToken::findToken('K6oQ1JO4a86MxTX...')
+#24 [internal function]: Laravel\\Sanctum\\Guard->__invoke(Object(Illuminate\\Http\\Request), NULL)
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\RequestGuard.php(57): call_user_func(Object(Laravel\\Sanctum\\Guard), Object(Illuminate\\Http\\Request), NULL)
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\GuardHelpers.php(60): Illuminate\\Auth\\RequestGuard->user()
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(76): Illuminate\\Auth\\RequestGuard->check()
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(55): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#53 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#56 {main}
+"} 
+[2023-06-11 07:03:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 07:13:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 07:23:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 07:33:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 07:43:25] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 07:53:25] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:03:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:13:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:23:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:33:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:43:24] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:47:23] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 08:54:43] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:04:38] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:14:37] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:24:38] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:34:38] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:39:14] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:41:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 09:43:53] local.ERROR: Attempt to assign property "name" on null {"userId":1,"exception":"[object] (Error(code: 0): Attempt to assign property \"name\" on null at C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php:80)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), '1')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#40 {main}
+"} 
+[2023-06-11 09:44:56] local.ERROR: Attempt to assign property "name" on null {"userId":1,"exception":"[object] (Error(code: 0): Attempt to assign property \"name\" on null at C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php:80)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), '1')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#40 {main}
+"} 
+[2023-06-11 09:45:41] local.ERROR: Attempt to assign property "name" on null {"userId":1,"exception":"[object] (Error(code: 0): Attempt to assign property \"name\" on null at C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php:80)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), NULL)
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#40 {main}
+"} 
+[2023-06-11 09:46:02] local.ERROR: Attempt to assign property "name" on null {"userId":1,"exception":"[object] (Error(code: 0): Attempt to assign property \"name\" on null at C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php:80)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), NULL)
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#40 {main}
+"} 
+[2023-06-11 09:51:50] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 10:11:35] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 10:21:30] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2023-06-11 10:29:28] local.ERROR: SQLSTATE[HY000]: General error: 1 no such column: prooffile (Connection: sqlite, SQL: update "items" set "prooffile" = 6485a2087ab39.jpg, "updated_at" = 2023-06-11 10:29:28 where "id" = 1) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 no such column: prooffile (Connection: sqlite, SQL: update \"items\" set \"prooffile\" = 6485a2087ab39.jpg, \"updated_at\" = 2023-06-11 10:29:28 where \"id\" = 1) at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('update \"items\" ...', Array, Object(Closure))
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('update \"items\" ...', Array, Object(Closure))
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(545): Illuminate\\Database\\Connection->affectingStatement('update \"items\" ...', Array)
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3388): Illuminate\\Database\\Connection->update('update \"items\" ...', Array)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1039): Illuminate\\Database\\Query\\Builder->update(Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1215): Illuminate\\Database\\Eloquent\\Builder->update(Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1132): Illuminate\\Database\\Eloquent\\Model->performUpdate(Object(Illuminate\\Database\\Eloquent\\Builder))
+#7 C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php(87): Illuminate\\Database\\Eloquent\\Model->save()
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), Object(App\\Models\\Item))
+#9 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#45 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#48 {main}
+
+[previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 no such column: prooffile at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:601)
+[stacktrace]
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(601): PDO->prepare('update \"items\" ...')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('update \"items\" ...', Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('update \"items\" ...', Array, Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(593): Illuminate\\Database\\Connection->run('update \"items\" ...', Array, Object(Closure))
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(545): Illuminate\\Database\\Connection->affectingStatement('update \"items\" ...', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3388): Illuminate\\Database\\Connection->update('update \"items\" ...', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(1039): Illuminate\\Database\\Query\\Builder->update(Array)
+#7 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1215): Illuminate\\Database\\Eloquent\\Builder->update(Array)
+#8 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1132): Illuminate\\Database\\Eloquent\\Model->performUpdate(Object(Illuminate\\Database\\Eloquent\\Builder))
+#9 C:\\Users\\marco\\Desktop\\laraz\\app\\Http\\Controllers\\ItemController.php(87): Illuminate\\Database\\Eloquent\\Model->save()
+#10 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ItemController->update(Object(App\\Http\\Requests\\UpdateItemRequest), Object(App\\Models\\Item))
+#11 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('update', Array)
+#12 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ItemController), 'update')
+#13 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#14 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Routing\\Route->run()
+#15 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(152): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(118): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#20 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(80): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#21 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#22 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#24 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#28 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#47 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\marco\\Desktop\\laraz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\marco\\\\...')
+#50 {main}
+"} 
+[2023-06-11 10:31:29] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(910): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(933): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(918): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\marco\Desktop\laraz\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(910): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(933): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(918): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\marco\\Desktop\\laraz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
